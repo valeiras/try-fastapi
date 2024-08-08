@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "try-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["David Reverter Valeiras <d.r.valeiras@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = {extras = ["standard"], version = "^0.30.5"}
+fastapi = {extras = ["standard"], version = "^0.112.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

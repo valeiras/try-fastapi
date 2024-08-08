@@ -1,0 +1,6 @@
+/.dockerignore
+/.mypy_cache
+/.venv
+/Dockerfile
+/fly.toml
+/__pycache__
